@@ -1,6 +1,6 @@
 
 # jdbc url for mysql database
-url: ""
+url: "jdbc:mysql://localhost/reichsmp"
 
 # myqsl username
 user: ""

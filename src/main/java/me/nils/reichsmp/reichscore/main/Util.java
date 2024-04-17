@@ -1,4 +1,4 @@
-package me.nils.reichsmp.reichscore.util;
+package me.nils.reichsmp.reichscore.main;
 
 public class Util {
 

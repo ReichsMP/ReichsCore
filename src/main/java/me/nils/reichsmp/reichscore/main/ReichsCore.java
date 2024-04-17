@@ -1,7 +1,5 @@
 package me.nils.reichsmp.reichscore.main;
 
-import me.nils.reichsmp.reichscore.configs.Config;
-import me.nils.reichsmp.reichscore.logging.LogHandler;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.logging.Level;

@@ -1,6 +1,5 @@
-package me.nils.reichsmp.reichscore.logging;
+package me.nils.reichsmp.reichscore.main;
 
-import me.nils.reichsmp.reichscore.util.Util;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.Arrays;
