@@ -30,7 +30,7 @@ public class LogHandler extends Handler {
 
     @Override
     public void publish(LogRecord record) {
-        plugin.getServer().getConsoleSender().sendMessage(Util.cc(String.format("[%s] %s", logPrefix, record)));
+        plugin.getServer().getConsoleSender().sendMessage(Util.cc(String.format("[%s] %s", logPrefix, record.getMessage())));
     }
 
 

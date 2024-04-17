@@ -1,21 +1,30 @@
 package me.nils.reichsmp.reichscore.main;
 
+import me.nils.reichsmp.reichscore.configs.Config;
 import me.nils.reichsmp.reichscore.logging.LogHandler;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.util.logging.Level;
 
 public class ReichsCore extends JavaPlugin {
 
 
     @Override
     public void onEnable() {
-        new LogHandler(this, "[ReichsCore]").init();
-        getLogger().info("&aReichsCore has been enabled.");
+        if(!getDataFolder().exists())
+            getDataFolder().mkdirs();
+        new LogHandler(this, "ReichsCore").init();
+        getLogger().log(Level.INFO, "&aReichsCore has been enabled.");
+
+        /*
+        Testing
+         */
     }
 
 
     @Override
     public void onDisable() {
-        getLogger().info("&cReichsCore has been disabled.");
+        getLogger().log(Level.INFO, "&cReichsCore has been disabled.");
     }
 
 

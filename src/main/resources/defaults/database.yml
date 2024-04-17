@@ -1,0 +1,9 @@
+
+# jdbc url for mysql database
+url: ""
+
+# myqsl username
+user: ""
+
+# mysql user password
+password: ""
